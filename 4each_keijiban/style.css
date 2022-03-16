@@ -1,0 +1,105 @@
+body{
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ",sans-serif;
+}
+
+img.logo{
+    width: 250px;
+}
+header{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+}
+header li{
+    float: left;
+    color: white;
+    line-height: 45px;
+    list-style: none;
+    margin-right: 45px;
+}
+h1{
+    border-left: 4px black solid;
+    border-bottom: 2px black solid;
+    width: 100%;
+    font-size: 35px;
+}
+form h2{
+    border-left: 4px rgb(189, 1, 1) solid;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+form{
+    background-color: #efefef;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+form div{
+    padding: 10px;
+}
+.text, textarea{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+.submit{
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    border-bottom: solid 4px rgb(83, 83, 83);
+}
+.toukou{
+    background-color: #efefef;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.toukou h3{
+    border-bottom: 2px solid lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+.toukou .contents{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.toukou .handlename{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.left{
+    float: left;
+    width: 70%;
+}
+.right{
+    float: left;
+    width: 28%;
+    margin-left: 2%;
+    margin-top: 45px;
+}
+.right h2{
+    border-bottom: dotted 2px black;
+}
+.right li{
+    list-style: none;
+    margin-left: -15px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    bottom: 0px;
+}
